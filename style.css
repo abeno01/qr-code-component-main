@@ -13,31 +13,21 @@
 
 body {
   text-align: center;
-
-  font-size: 2rem;
   font-family: var(--ff-base);
-
   background-color: var(--clr-background-grey);
 }
 
 .container {
-  width: 85%;
+  margin: 2rem 2rem;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  text-align: center;
+  width: min(90%, 300px);
   padding: 1.5rem;
+  margin: 5rem auto;
 
   background-color: var(--clr-primary-white);
-  width: 90%;
-  margin: 5rem auto;
   border-radius: 1.7rem;
-
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,9 +37,11 @@ body {
 }
 
 .card__title {
+  font-size: 2rem;
   color: var(--clr-dark-blue);
   line-height: var(--line-height);
   font-weight: var(--fw-bold);
+  margin-bottom: 1rem;
 }
 
 .card__text {
